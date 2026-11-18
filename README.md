@@ -1,3 +1,22 @@
+# Kroppens atlas (dansk udgave af Human Atlas)
+
+**[Prøv den danske udgave](https://kroppens-atlas.vercel.app)**
+
+En dansk oversættelse af [Human Atlas](https://github.com/ashemag/human-atlas) af Ashe Magalhaes, en open source 3D-anatomi-viewer bygget på BodyParts3D-data. Jeg lavede den, så min bror kunne bruge den på dansk.
+
+Hvad jeg har ændret:
+
+- Al brugerflade oversat til dansk: knapper, paneler, søgning, kamera og om-siden
+- De 15 kropssystemer med danske navne og beskrivelser
+- Danske forklaringer på de vigtigste organer
+- Deployet på Vercel
+
+Strukturnavnene (3.432 stk.) står stadig på engelsk og latin, som i kildedata. Al kredit for viewer og 3D-pipeline går til det oprindelige projekt (MIT), og 3D-modellerne er BodyParts3D (CC BY 4.0).
+
+*Danish translation of Human Atlas. The original English README follows below.*
+
+---
+
 # Human Atlas
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
